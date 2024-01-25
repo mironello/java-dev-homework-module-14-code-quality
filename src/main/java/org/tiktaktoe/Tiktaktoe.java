@@ -5,14 +5,14 @@ import java.util.logging.Logger;
 
 public class Tiktaktoe {
 
-    Logger logger = Logger.getLogger("App");
+    private static Logger logger = Logger.getLogger("App");
 
     Scanner scan = new Scanner(System.in);
-    byte input;
-    byte random;
-    byte winner = 0;
-    char[] box = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
-    boolean boxEmpty = false;
+    private byte input;
+    private byte random;
+    private byte winner = 0;
+    private char[] box = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    private boolean boxEmpty = false;
 
 
     public void setBoxEmpty(boolean boxEmpty) {
