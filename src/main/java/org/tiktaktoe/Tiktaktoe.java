@@ -7,7 +7,7 @@ public class Tiktaktoe {
 
     private static Logger logger = Logger.getLogger("App");
 
-    Scanner scan = new Scanner(System.in);
+    private Scanner scan = new Scanner(System.in);
     private byte input;
     private byte random;
     private byte winner = 0;
